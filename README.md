@@ -20,7 +20,7 @@ Microsoft PowerToys is a set of utilities for power users to tune and streamline
 | [Registry Preview](https://aka.ms/PowerToysOverview_RegistryPreview) | [Screen Ruler](https://aka.ms/PowerToysOverview_ScreenRuler) | [Shortcut Guide](https://aka.ms/PowerToysOverview_ShortcutGuide) |
 | [Text Extractor](https://aka.ms/PowerToysOverview_TextExtractor) | [Video Conference Mute](https://aka.ms/PowerToysOverview_VideoConference) | [Workspaces](https://aka.ms/PowerToysOverview_Workspaces) |
 
-## 🎁⭐ PowerToys Advent calender
+## 🎁⭐ PowerToys Advent calender ⭐🎁
 
 We will be highlighting a cool utility each day for 24 days in December! To follow along, check out these threads:
 - https://bsky.app/profile/kaylacinnamon.bsky.social/post/3lcb7iljxck2o
