@@ -37,8 +37,7 @@ namespace Microsoft.PowerToys.Settings.UI.Library
 
         [JsonConverter(typeof(BoolPropertyJsonConverter))]
         public bool PerColorChannelEdgeDetection { get; set; }
-
-        [CmdConfigureIgnore]
+        
         public IntProperty UnitsOfMeasure { get; set; }
 
         public IntProperty PixelTolerance { get; set; }
