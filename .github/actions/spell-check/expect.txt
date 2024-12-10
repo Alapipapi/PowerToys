@@ -1542,6 +1542,7 @@ THICKFRAME
 THISCOMPONENT
 THotkey
 thumbcache
+TILLSON
 TILEDWINDOW
 timedate
 timediff
