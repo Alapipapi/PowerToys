@@ -290,6 +290,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
         }
 
         private bool AllSelected => _selectedLanguageOptions.Length == Languages.Count;
+        public bool AllSelected => _selectedLanguageOptions.Length == Languages.Count;
 
         private PowerAccentLanguageModel[] _selectedLanguageOptions;
 
@@ -300,7 +301,9 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             {
                 _selectedLanguageOptions = value;
                 _powerAccentSettings.Properties.SelectedLang.Value = string.Join(',', _selectedLanguageOptions.Select(l => l.LanguageCode));
+
                 RaisePropertyChanged(nameof(SelectedLanguageOptions))
+                RaisePropertyChanged(nameof(SelectedLanguageOptions));
             }
         }
 

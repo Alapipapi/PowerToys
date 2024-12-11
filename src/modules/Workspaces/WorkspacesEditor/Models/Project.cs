@@ -237,7 +237,7 @@ namespace WorkspacesEditor.Models
             Monitors = [];
             Applications = [];
 
-            foreach (var app in project.Applications)
+            foreach (ProjectData.ApplicationWrapper app in project.Applications)
             {
                 Models.Application newApp = new()
                 {

@@ -168,11 +168,11 @@ Measurement::PrintResult Measurement::Print(wchar_t* buf,
                                             Measurement::GetUnitAbbreviation(unit));
 
                 break;
-        case Measurement::Unit::Millimetre:
-            result.strLen += swprintf_s(buf + result.strLen,
-                                        bufSize - result.strLen,
-                                        L" %s",
-                                        Measurement::GetUnitAbbreviation(unit));
+            case Measurement::Unit::Millimetre:
+                result.strLen += swprintf_s(buf + result.strLen,
+                                            bufSize - result.strLen,
+                                            L" %s",
+                                            Measurement::GetUnitAbbreviation(unit));
 
                 break;
         }
@@ -235,4 +235,3 @@ void Measurement::PrintToStream(std::wostream& stream,
         stream << L" " << Measurement::GetUnitAbbreviation(units);
     }
 }
-

@@ -143,7 +143,7 @@ namespace
         OverlayBoxText text;
 
         const auto [crossSymbolPos, measureStringBufLen] =
-            measurement.Print(text.buffer.data(),
+        measurement.Print(text.buffer.data(),
                             text.buffer.size(),
                             drawHorizontalCrossLine,
                             drawVerticalCrossLine,

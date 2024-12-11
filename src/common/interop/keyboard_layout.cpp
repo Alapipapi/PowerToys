@@ -242,6 +242,7 @@ void LayoutMap::LayoutMapImpl::UpdateLayout()
     keyboardLayoutMap[VK_HANGEUL] = L"IME Hangeul";
     keyboardLayoutMap[VK_IME_ON] = L"IME On";
     keyboardLayoutMap[VK_HANGUL] = L"IME Hangul";
+    keyboardLayoutMap[VK_IME_ON] = L"IME On";
     keyboardLayoutMap[VK_JUNJA] = L"IME Junja";
     keyboardLayoutMap[VK_FINAL] = L"IME Final";
     keyboardLayoutMap[VK_HANJA] = L"IME Hanja";

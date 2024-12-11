@@ -17,7 +17,6 @@ namespace Utils
         std::optional<std::wstring> GetEdgeAppId(const std::wstring& windowAumid) const;
         std::optional<std::wstring> GetChromeAppId(const std::wstring& windowAumid) const;   
         std::wstring SearchPwaName(const std::wstring& pwaAppId, const std::wstring& windowAumid) const;
-
     private:
         void InitAppIds(const std::wstring& browserDataFolder, const std::wstring& browserDirPrefix, const std::function<void(const std::wstring&)>& addingAppIdCallback);
         void InitEdgeAppIds();
